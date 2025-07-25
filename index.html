@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polypath Vocab – Multilingual A1/A2</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Polypath Vocabulary App</h1>
+
+    <label for="l1">L1 (Native):</label>
+    <select id="l1">
+      <option value="">-- Select --</option>
+      <option value="English">English</option>
+      <option value="Spanish">Spanish</option>
+      <option value="Norwegian">Norwegian</option>
+      <option value="Arabic">Arabic</option>
+      <option value="Mandarin">Mandarin</option>
+      <option value="German">German</option>
+      <option value="Tagalog">Tagalog</option>
+    </select>
+
+    <label for="tl">TL (Target Language):</label>
+    <select id="tl">
+      <option value="">-- Select --</option>
+      <option value="English">English</option>
+      <option value="Spanish">Spanish</option>
+      <option value="Norwegian">Norwegian</option>
+      <option value="Arabic">Arabic</option>
+      <option value="Mandarin">Mandarin</option>
+      <option value="German">German</option>
+      <option value="Tagalog">Tagalog</option>
+    </select>
+
+    <label for="theme">Theme (Optional):</label>
+    <input id="theme" type="text" placeholder="e.g., fruits, animals" />
+
+    <section id="buttons"></section>
+
+    <button id="refresh" class="refresh">🔄 New Words</button>
+  </main>
+  <script src="app.js" type="module"></script>
+</body>
+</html>
